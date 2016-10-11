@@ -1,0 +1,6 @@
+for x in range (2,100):
+	Mer = pow(2,x)-1
+	if (pow(2,Mer-1) - 1 )%Mer ==0:
+		#for y in xrange(2,Mer-1):
+		#	if Mer%y==0:
+				print Mer,x
