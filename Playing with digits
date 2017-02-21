@@ -6,6 +6,6 @@ def dig_pow(n, p):
        sum = sum + int(n_str[i])**(p+i)
     k = sum / n
     if k*n != sum :
-        print -1
+        return -1
     else:
-        print 1
+        return k
