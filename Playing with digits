@@ -1,0 +1,11 @@
+def dig_pow(n, p):
+    sum=0
+    n_str = map(int,str(n))
+    lenght = len(n_str)
+    for i in range(0,lenght):
+       sum = sum + int(n_str[i])**(p+i)
+    k = sum / n
+    if k*n != sum :
+        print -1
+    else:
+        print 1
